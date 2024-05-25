@@ -9,8 +9,34 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>选择有时候比努力更重要</description>
-    <pubDate>Thu, 23 May 2024 12:46:39 GMT</pubDate>
+    <pubDate>Sat, 25 May 2024 10:19:15 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>现阶段学习内容总结规划</title>
+      <link>http://example.com/2024/05/25/%E7%8E%B0%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9%E6%80%BB%E7%BB%93%E8%A7%84%E5%88%92/</link>
+      <guid>http://example.com/2024/05/25/%E7%8E%B0%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9%E6%80%BB%E7%BB%93%E8%A7%84%E5%88%92/</guid>
+      <pubDate>Sat, 25 May 2024 09:34:24 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;#2024.05.25阶段性总结&lt;br&gt;最近一段时间的主要工作：&lt;br&gt;1.专业课学习（电动力学，量子力学，统计物理）；&lt;br&gt;2.熟悉srt需要用到的知识，包括激光等离子体加速物理，同时也需要学习一定程度的python（计划下学期或者下下学期选修计算物理，量子束流物理与能</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>#2024.05.25阶段性总结<br>最近一段时间的主要工作：<br>1.专业课学习（电动力学，量子力学，统计物理）；<br>2.熟悉srt需要用到的知识，包括激光等离子体加速物理，同时也需要学习一定程度的python（计划下学期或者下下学期选修计算物理，量子束流物理与能源物理基础）；<br>3.读文献（srt\论文中的所有文献），重点是综述；<br>4.准备六级考试（06.15），并且暑假如果有时间可以准备并考一次雅思；<br>5.假期要学习并掌握Smilei-PIC与FLASH流体模拟的使用（如果有空闲，也可以试试Multi）；<br>6.准备中世纪西方政治（06.12）和马原的结课论文，马原需要开始准备考试内容了。  </p><p>目前已完成的进度:<br>电动力学复习了电磁场的基本性质与相对论电动力学；初步理解了激光等离子体物理相关的一些知识，林老师的出站论文看了一部分；基本了解了python的语法，可以较为熟练地使用GitHub，cmd以及终端进行操作；在Smilei上初步实现了一些模拟，了解了基本的操作，FLASH已经安装。  </p><p>FLASH官网地址：<a href="https://flash.rochester.edu/%22FLASH%E5%AE%98%E7%BD%91%22">FLASH</a><br>Smilei-PIC官网地址：<a href="https://smileipic.github.io/Smilei/%22Smilei-PIC%22">Smilei-PIC</a><br>四六级考试官网地址：<a href="https://cet.neea.edu.cn/%22%E5%9B%9B%E5%85%AD%E7%BA%A7%E4%BF%A1%E6%81%AF%22">四六级</a></p>]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">-学习</category>
+      
+      
+      <category domain="http://example.com/tags/%E6%80%BB%E7%BB%93-%E5%AD%A6%E4%B9%A0/">-总结 -学习</category>
+      
+      
+      <comments>http://example.com/2024/05/25/%E7%8E%B0%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9%E6%80%BB%E7%BB%93%E8%A7%84%E5%88%92/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Hello World</title>
