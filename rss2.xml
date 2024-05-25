@@ -9,8 +9,35 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>选择有时候比努力更重要</description>
-    <pubDate>Sat, 25 May 2024 14:54:38 GMT</pubDate>
+    <pubDate>Sat, 25 May 2024 15:10:34 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>ping-pong-rocket实验报告</title>
+      <link>http://example.com/2024/05/25/ping-pong-rocket%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/</link>
+      <guid>http://example.com/2024/05/25/ping-pong-rocket%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/</guid>
+      <pubDate>Sat, 25 May 2024 15:09:28 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2024/05/25/L6F5ThHqE4dmKZR.jpg&quot; alt=&quot;Ping Pong Rocket_1-7.jpg&quot;&gt;&lt;/p&gt;
+</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p><img src="https://s2.loli.net/2024/05/25/L6F5ThHqE4dmKZR.jpg" alt="Ping Pong Rocket_1-7.jpg"></p>]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">-学习</category>
+      
+      
+      <category domain="http://example.com/tags/%E5%AE%9E%E9%AA%8C-%E5%AD%A6%E4%B9%A0/">-实验 -学习</category>
+      
+      
+      <comments>http://example.com/2024/05/25/ping-pong-rocket%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>弦上驻波实验报告</title>
