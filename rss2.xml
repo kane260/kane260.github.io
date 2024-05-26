@@ -9,8 +9,34 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>热爱物理，保持思考</description>
-    <pubDate>Sun, 26 May 2024 09:51:59 GMT</pubDate>
+    <pubDate>Sun, 26 May 2024 12:12:21 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>激光等离子体物理学习（1）</title>
+      <link>http://example.com/2024/05/26/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%882%EF%BC%89/</link>
+      <guid>http://example.com/2024/05/26/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%882%EF%BC%89/</guid>
+      <pubDate>Sun, 26 May 2024 10:06:09 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;1-激光与单电子相互作用：&quot;&gt;&lt;a href=&quot;#1-激光与单电子相互作用：&quot; class=&quot;headerlink&quot; title=&quot;1.激光与单电子相互作用：&quot;&gt;&lt;/a&gt;1.激光与单电子相互作用：&lt;/h1&gt;&lt;h2 id=&quot;1-2激光有质动力：&quot;&gt;&lt;a href=&quot;</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="1-激光与单电子相互作用："><a href="#1-激光与单电子相互作用：" class="headerlink" title="1.激光与单电子相互作用："></a>1.激光与单电子相互作用：</h1><h2 id="1-2激光有质动力："><a href="#1-2激光有质动力：" class="headerlink" title="1.2激光有质动力："></a>1.2激光有质动力：</h2><p>现在，我们需要考虑更加真实的情况，比如在空间中有较大径向光梯度的情况（几个波长范围内），此时电子还会收到激光有质动力的作用。较为简单地，我们把有质动力定义为：<strong>时间平均</strong>意义下激光强度的梯度带来的相互作用。考虑非相对论情况：电子在聚焦激光的中心处附近振荡，假设激光沿$x$方向传播，同时激光的电场强度沿径向分布，电子的横向运动可以写为：  </p><script type="math/tex; mode=display">\frac{\partial v_r }{\partial t}=-\frac{e}{m_e}E_\perp (\vec{r})</script><p>对$r$作泰勒展开可以得到：  </p><script type="math/tex; mode=display">E_r (r)=E_0(r)\cos \phi +r \frac{\partial E_0(r)}{\partial r} \cos \phi +\dots</script><p>我们采用迭代的方法，先取第一项，获得$r^{(0)}=v_{os}\cos \phi /\omega ,v_{os}=eE_0/m\omega _0$，将此结果带入可以得到第一阶的影响,我们定义：  </p><script type="math/tex; mode=display">f_p\equiv m_e\frac{\overline{\partial v_r^{(1)}} }{\partial t }=-\frac{e^2}{4m_e\omega _0^2}\frac{\partial E_0^2}{\partial r}</script><p>对于这个力的来源，我们可以作如下理解：电子前半个周期相比与后半个周期距离中心更加近，受到的力也就更大，后半个周期受到的力不足让电子回到中心，周期结束之后电子会在横向有一个漂移距离，即受到了有质动力的作用，当然，更普遍的，激光的场强变化不仅仅在横向。<br>如果要考虑相对效应，我们必须从洛伦兹方程出发：  </p><script type="math/tex; mode=display">\frac{\partial \vec{p}}{\partial t } +(\vec{v}\cdot \nabla )\vec{p}=e[\frac{\partial \vec{A} }{\partial t } -\vec{v} \times (\nabla \times \vec{A} ) ]</script><p>我们按照运动的时间尺度，将运动分为快变的$\vec{p}^f=e\vec{A}$与慢变的$\vec{p}^s$，前者来自激光电场的直接作用，后者来自于激光强度梯度作用下的时间平均效果，计算可得（注意到慢变成分相对于快变成分理所应当地是一个小量，否则何来快变？）：  </p><script type="math/tex; mode=display">\vec{f}_p=\frac{\mathrm{d} \vec{p}^s }{\mathrm{d}t }  =-m_ec^2\nabla\bar{\gamma }</script><p>其中$\bar{\gamma }=(1+p_s^2/m_e^2c^2+a_0^2/2)^{\frac{1}{2} } $，这个结果对于流体描述下的等离子体中电子的集体效应也适用。<br>更加严格地，我们可以从带电粒子与电磁场的作用量出发：  </p><script type="math/tex; mode=display">S=S_{fp}+S_{int}+S_{em}=\int(-m_ec^2)\mathrm{d}s +\int (\frac{e}{c} A^\mu u_\mu )\mathrm{d}s+\int (-\frac{1}{4\mu_0}F^{\mu \nu} F_{\mu\nu })\mathrm{d}^4x</script><p>三项分别表示电子运动的作用量，电子与电磁场相互作用的作用量以及电磁场的作用量，根据最小作用了原理我们也会发现一样的结果，说明前面的假设是一个较为合理的假设。</p>]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">-学习</category>
+      
+      
+      <category domain="http://example.com/tags/srt-%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86/">-[srt,激光等离子体物理]</category>
+      
+      
+      <comments>http://example.com/2024/05/26/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%882%EF%BC%89/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>ping-pong-rocket实验报告</title>
@@ -28,7 +54,7 @@
       <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">-学习</category>
       
       
-      <category domain="http://example.com/tags/%E5%AE%9E%E9%AA%8C-%E5%AD%A6%E4%B9%A0/">-实验 -学习</category>
+      <category domain="http://example.com/tags/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/">-实验报告</category>
       
       
       <comments>http://example.com/2024/05/25/ping-pong-rocket%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/#disqus_thread</comments>
@@ -51,7 +77,7 @@
       <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">-学习</category>
       
       
-      <category domain="http://example.com/tags/%E5%AE%9E%E9%AA%8C-%E5%AD%A6%E4%B9%A0/">-实验 -学习</category>
+      <category domain="http://example.com/tags/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/">-实验报告</category>
       
       
       <comments>http://example.com/2024/05/25/%E5%BC%A6%E4%B8%8A%E9%A9%BB%E6%B3%A2%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/#disqus_thread</comments>
@@ -74,7 +100,7 @@
       <category domain="http://example.com/categories/%E9%97%B2%E8%B0%88/">-闲谈</category>
       
       
-      <category domain="http://example.com/tags/%E4%BD%86%E4%B8%81-%E9%97%B2%E8%B0%88/">-但丁 -闲谈</category>
+      <category domain="http://example.com/tags/%E6%96%87%E5%8F%B2/">-文史</category>
       
       
       <comments>http://example.com/2024/05/25/%E4%BD%86%E4%B8%81%E4%B8%8E%E4%BB%96%E7%9A%84%E9%AD%94%E9%AC%BC%E4%B9%8B%E5%9F%8E/#disqus_thread</comments>
@@ -83,8 +109,8 @@
     
     <item>
       <title>激光等离子体物理学习（1）</title>
-      <link>http://example.com/2024/05/25/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</link>
-      <guid>http://example.com/2024/05/25/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</guid>
+      <link>http://example.com/2024/05/25/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89/</link>
+      <guid>http://example.com/2024/05/25/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89/</guid>
       <pubDate>Sat, 25 May 2024 10:46:19 GMT</pubDate>
       
         
@@ -100,10 +126,10 @@
       <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">-学习</category>
       
       
-      <category domain="http://example.com/tags/srt-%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93/">-srt -激光等离子体</category>
+      <category domain="http://example.com/tags/srt-%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86/">-[srt,激光等离子体物理]</category>
       
       
-      <comments>http://example.com/2024/05/25/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/#disqus_thread</comments>
+      <comments>http://example.com/2024/05/25/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89/#disqus_thread</comments>
       
     </item>
     
@@ -126,7 +152,7 @@
       <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">-学习</category>
       
       
-      <category domain="http://example.com/tags/%E6%80%BB%E7%BB%93-%E5%AD%A6%E4%B9%A0/">-总结 -学习</category>
+      <category domain="http://example.com/tags/%E6%80%BB%E7%BB%93/">-总结</category>
       
       
       <comments>http://example.com/2024/05/25/%E7%8E%B0%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9%E6%80%BB%E7%BB%93%E8%A7%84%E5%88%92/#disqus_thread</comments>
