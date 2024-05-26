@@ -9,27 +9,8 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>热爱物理，保持思考</description>
-    <pubDate>Sun, 26 May 2024 09:46:23 GMT</pubDate>
+    <pubDate>Sun, 26 May 2024 09:51:59 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>name</title>
-      <link>http://example.com/2024/05/26/name/</link>
-      <guid>http://example.com/2024/05/26/name/</guid>
-      <pubDate>Sun, 26 May 2024 09:44:37 GMT</pubDate>
-      
-      
-      
-      
-      <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/%E9%97%B2%E8%B0%88/">闲谈</category>
-      
-      
-      
-      <comments>http://example.com/2024/05/26/name/#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>ping-pong-rocket实验报告</title>
@@ -37,16 +18,11 @@
       <guid>http://example.com/2024/05/25/ping-pong-rocket%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/</guid>
       <pubDate>Sat, 25 May 2024 15:09:28 GMT</pubDate>
       
-        
-        
-      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;  
-&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2024/05/25/L6F5ThHqE4dmKZR.jpg&quot; alt=&quot;Ping Pong Rocket_1-7.jpg&quot;&gt;&lt;/p&gt;
-</description>
-        
+      <description>&lt;p&gt;这是cupt竞赛的实验报告：&lt;br&gt;</description>
       
       
       
-      <content:encoded><![CDATA[<span id="more"></span>  <p><img src="https://s2.loli.net/2024/05/25/L6F5ThHqE4dmKZR.jpg" alt="Ping Pong Rocket_1-7.jpg"></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>这是cupt竞赛的实验报告：<br><span id="more"></span><br><img src="https://s2.loli.net/2024/05/25/L6F5ThHqE4dmKZR.jpg" alt="Ping Pong Rocket_1-7.jpg"></p>]]></content:encoded>
       
       
       <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">-学习</category>
@@ -65,15 +41,11 @@
       <guid>http://example.com/2024/05/25/%E5%BC%A6%E4%B8%8A%E9%A9%BB%E6%B3%A2%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/</guid>
       <pubDate>Sat, 25 May 2024 13:55:46 GMT</pubDate>
       
-        
-        
-      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;  
-&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2024/05/25/bTlyBMHU6ZFafec.jpg&quot; alt=&quot;_1.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://s2.loli.net/20</description>
-        
+      <description>&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2024/05/25/bTlyBMHU6ZFafec.jpg&quot; alt=&quot;_1.jpg&quot;&gt;&lt;br&gt;</description>
       
       
       
-      <content:encoded><![CDATA[<span id="more"></span>  <p><img src="https://s2.loli.net/2024/05/25/bTlyBMHU6ZFafec.jpg" alt="_1.jpg"><br><img src="https://s2.loli.net/2024/05/25/ZKvxQySbcWBuERV.jpg" alt="_2.jpg"><br><img src="https://s2.loli.net/2024/05/25/BXL9RIH13wlCYVr.jpg" alt="_3.jpg"><br><img src="https://s2.loli.net/2024/05/25/qIOCvGbBczQSFog.jpg" alt="_4.jpg"><br><img src="https://s2.loli.net/2024/05/25/31syXMaKAoek4v7.jpg" alt="_5.jpg"><br><img src="https://s2.loli.net/2024/05/25/WfnZDK8Eh2OrqN4.jpg" alt="_6.jpg"><br><img src="https://s2.loli.net/2024/05/25/2Qun5e4i3BrdY6v.jpg" alt="_7.jpg"><br><img src="https://s2.loli.net/2024/05/25/3dULzSTlKxuPiWg.jpg" alt="_8.jpg"></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p><img src="https://s2.loli.net/2024/05/25/bTlyBMHU6ZFafec.jpg" alt="_1.jpg"><br><span id="more"></span><br><img src="https://s2.loli.net/2024/05/25/ZKvxQySbcWBuERV.jpg" alt="_2.jpg"><br><img src="https://s2.loli.net/2024/05/25/BXL9RIH13wlCYVr.jpg" alt="_3.jpg"><br><img src="https://s2.loli.net/2024/05/25/qIOCvGbBczQSFog.jpg" alt="_4.jpg"><br><img src="https://s2.loli.net/2024/05/25/31syXMaKAoek4v7.jpg" alt="_5.jpg"><br><img src="https://s2.loli.net/2024/05/25/WfnZDK8Eh2OrqN4.jpg" alt="_6.jpg"><br><img src="https://s2.loli.net/2024/05/25/2Qun5e4i3BrdY6v.jpg" alt="_7.jpg"><br><img src="https://s2.loli.net/2024/05/25/3dULzSTlKxuPiWg.jpg" alt="_8.jpg"></p>]]></content:encoded>
       
       
       <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">-学习</category>
