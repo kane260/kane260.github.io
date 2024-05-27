@@ -31,7 +31,7 @@
 <meta property="og:description" content="2.激光与等离子体相互作用：2.2等离子体双流体模型：">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-05-27T05:03:50.000Z">
-<meta property="article:modified_time" content="2024-05-27T07:39:19.756Z">
+<meta property="article:modified_time" content="2024-05-27T07:44:07.879Z">
 <meta property="article:author" content="kane">
 <meta property="article:tag" content="-[srt,激光等离子体物理]">
 <meta name="twitter:card" content="summary">
@@ -204,7 +204,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2024-05-27 13:03:50 / 修改时间：15:39:19" itemprop="dateCreated datePublished" datetime="2024-05-27T13:03:50+08:00">2024-05-27</time>
+              <time title="创建时间：2024-05-27 13:03:50 / 修改时间：15:44:07" itemprop="dateCreated datePublished" datetime="2024-05-27T13:03:50+08:00">2024-05-27</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -251,7 +251,7 @@
         <h1 id="2-激光与等离子体相互作用："><a href="#2-激光与等离子体相互作用：" class="headerlink" title="2.激光与等离子体相互作用："></a>2.激光与等离子体相互作用：</h1><h2 id="2-2等离子体双流体模型："><a href="#2-2等离子体双流体模型：" class="headerlink" title="2.2等离子体双流体模型："></a>2.2等离子体双流体模型：</h2><span id="more"></span>   
 <p>双流体模型在于将电子与离子分别视为等离子体中带不同电荷的流体，高频的电子等离子体波与低频的离子等离子体波在其中传播。Vlasov在1938年提出了无碰撞的等离子体的动理学方程：  </p>
 <script type="math/tex; mode=display">\left \{ \frac{\partial }{\partial t } +\vec{v}\cdot \frac{\partial}{\partial \vec{x} }+\frac{e_j}{m_j}[\vec{E}(\vec{x},t )+\vec{v}\times\vec{B}(\vec{x},t ) ]\cdot \frac{\partial}{\partial\vec{v} } \right \}f_j(\vec{x},\vec{v},t  )=0,</script><p>其中$f_j(\vec{x},\vec{v},t  )$是以$(\vec{x},\vec{v})$为中心的六维相空间体积元内的粒子概然数目，对Vlasov方程取速度矩，可以得到粒子的数密度方程以及连续性方程:  </p>
-<script type="math/tex; mode=display">\begin{cases}\frac{\partial n_j}{\partial t } +\nabla \cdot (n_j\vec{u}_j )=0\\m_jn_j\frac{\mathrm{d}\vec{u}_j  }{\mathrm{d}t }=q_jn_j(\vec{E}+\vec{u}_j \times \vec{B}  )-\nabla P_j -m_jn_j\gamma _{ij}(\vec{u}_i -\vec{u}_j )\ \end{cases}</script><p>其中$gamma _{ij}$表示离子和电子的碰撞频率，流体压强$P_j$由状态方程给出，具体的形式由相互作用过程的特征频率以及激光波数决定：<br>&amp;&amp;P_j=\begin{cases}\ n_jT_j \ (fixed \ T), &amp;if\ \omega /k\gg u_j\\const\cdot n_j^\gamma  \ (adiabatic \ \gamma =1+\frac{2}{N} ), &amp;if\ \omega /k\ll  u_j\\back \ to\ Vlasov \ EQ, &amp;if\ \omega /k \sim   u_j\ \end{cases}&amp;&amp;<br>现在我们有了连续性方程，粒子运动方程，流体状态方程，只需要加上等离子体中的Maxwell方程就可以描述全部的双流体模型：  </p>
+<script type="math/tex; mode=display">\begin{cases}\frac{\partial n_j}{\partial t } +\nabla \cdot (n_j\vec{u}_j )=0，\\m_jn_j\frac{\mathrm{d}\vec{u}_j  }{\mathrm{d}t }=q_jn_j(\vec{E}+\vec{u}_j \times \vec{B}  )-\nabla P_j -m_jn_j\gamma _{ij}(\vec{u}_i -\vec{u}_j )，\ \end{cases}</script><p>其中$gamma _{ij}$表示离子和电子的碰撞频率，流体压强$P_j$由状态方程给出，具体的形式由相互作用过程的特征频率以及激光波数决定：<br>&amp;&amp;<br>P_j=\begin{cases}\ n_jT_j \ (fixed \ T), &amp;if\ \omega /k\gg u_j\\const\cdot n_j^\gamma  \ (adiabatic \ \gamma =1+\frac{2}{N} ), &amp;if\ \omega /k\ll  u_j\\back \ to\ Vlasov \ EQ, &amp;if\ \omega /k \sim   u_j\ \end{cases}<br>&amp;&amp;<br>现在我们有了连续性方程，粒子运动方程，流体状态方程，只需要加上等离子体中的Maxwell方程就可以描述全部的双流体模型：  </p>
 <script type="math/tex; mode=display">\begin{cases}\nabla \cdot \vec{E}=\frac{1}{\varepsilon _0}\sum_{j}n_jq_j,\\\nabla \cdot \vec{B}=0,\\\nabla \times \vec{E}=-\frac{\partial \vec{B} }{\partial t } ,\\\nabla \times \vec{B}=\mu _0\sum_{j}n_jq_j\vec{u}_j+\mu _0\varepsilon _0\frac{\partial \vec{E} }{\partial t },\    \end{cases}</script><p>更多内容可以参考知乎上的相关专题:<br><a target="_blank" rel="noopener" href="http://www.zhihu.com/column/c_1241755680597176320" title="知乎上的相关专题">http://www.zhihu.com/column/c_1241755680597176320</a></p>
 
     </div>
