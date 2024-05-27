@@ -9,8 +9,31 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>热爱物理，保持思考</description>
-    <pubDate>Mon, 27 May 2024 11:53:02 GMT</pubDate>
+    <pubDate>Mon, 27 May 2024 12:07:24 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>激光等离子体物理学习（6）</title>
+      <link>http://example.com/2024/05/27/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%886%EF%BC%89/</link>
+      <guid>http://example.com/2024/05/27/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%886%EF%BC%89/</guid>
+      <pubDate>Mon, 27 May 2024 11:59:32 GMT</pubDate>
+      
+      <description>&lt;h1 id=&quot;2-激光与等离子体相互作用：&quot;&gt;&lt;a href=&quot;#2-激光与等离子体相互作用：&quot; class=&quot;headerlink&quot; title=&quot;2.激光与等离子体相互作用：&quot;&gt;&lt;/a&gt;2.激光与等离子体相互作用：&lt;/h1&gt;&lt;h2 id=&quot;2-4相对论激光的相关性质：&quot;&gt;&lt;a href=&quot;#2-4相对论激光的相关性质：&quot; class=&quot;headerlink&quot; title=&quot;2.4相对论激光的相关性质：&quot;&gt;&lt;/a&gt;2.4相对论激光的相关性质：&lt;/h2&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="2-激光与等离子体相互作用："><a href="#2-激光与等离子体相互作用：" class="headerlink" title="2.激光与等离子体相互作用："></a>2.激光与等离子体相互作用：</h1><h2 id="2-4相对论激光的相关性质："><a href="#2-4相对论激光的相关性质：" class="headerlink" title="2.4相对论激光的相关性质："></a>2.4相对论激光的相关性质：</h2><span id="more"></span> ]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">-学习</category>
+      
+      
+      <category domain="http://example.com/tags/srt-%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86/">-[srt,激光等离子体物理]</category>
+      
+      
+      <comments>http://example.com/2024/05/27/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%886%EF%BC%89/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>激光等离子体物理学习（5）</title>
@@ -22,7 +45,7 @@
       
       
       
-      <content:encoded><![CDATA[<h1 id="2-激光与等离子体相互作用："><a href="#2-激光与等离子体相互作用：" class="headerlink" title="2.激光与等离子体相互作用："></a>2.激光与等离子体相互作用：</h1><h2 id="2-3激光在等离子体中的传播："><a href="#2-3激光在等离子体中的传播：" class="headerlink" title="2.3激光在等离子体中的传播："></a>2.3激光在等离子体中的传播：</h2><span id="more"></span> <p>在等离子体物理中，我们通常将物理量按照高频成分与低频成分分开处理（前面在推导激光有质动力时就有所体现），一般认为，高频部分是对高频场的响应，而低频部分为对时间的平均值的贡献。<br>对于高频电流，由于在我们讨论的时空尺度下，离子由于质量很大难以响应高频场，我们只需要考虑电子的贡献；同时，对于我们所涉及到的相对论情形，等离子体波的传播速度远小于流体的流速，故而我们将电子视为经历了绝热过程，热运动的特征速度表示为$v_{te}=\sqrt{k_BT_e/m_e} $，根据绝热方程与气体状态方程，可以得到：  </p><script type="math/tex; mode=display">\nabla P_e=\gamma n_ek_BT_e\nabla n_e</script><p>为了描述等离子体波的传播，我们假想等离子体内部发生偏离平衡状态的小微扰$n_e=n_0+n_{e1}$，$\vec{u}=\vec{u}_0+\vec{u}_{e1} $，$\vec{E}=\vec{E}_0+\vec{u}_{1} $，忽略磁场的影响，由于平衡时等离子体内部的均匀性，有：  </p><script type="math/tex; mode=display">\begin{cases}\nabla n_0=0,\ \vec{u}_0=0,\ \vec{E}_0=0,\\ \frac{\partial n_0}{\partial t }=\frac{\partial\vec{u}_0 }{\partial t }=\frac{\partial \vec{E}_0 }{\partial t }=0,   \end{cases}</script><p>同时，我们假设所有的一阶物理量都是正弦的，相因子为$\phi =kx-\omega t$，于是，我们可以将2.2中的方程线性化：  </p><script type="math/tex; mode=display">\begin{cases}\frac{\partial n_j}{\partial t } +\nabla \cdot (n_j\vec{u}_j )=0， \\ m_jn_j\frac{\mathrm{d}\vec{u}_j  }{\mathrm{d}t }=q_jn_j(\vec{E}+\vec{u}_j \times \vec{B}  )-\nabla P_j -m_jn_j\gamma _{ij}(\vec{u}_i -\vec{u}_j )，\\ \nabla \cdot \vec{E}=\frac{1}{\varepsilon _0}\sum_{j}n_jq_j,\  \end{cases}\Rightarrow \begin{cases}-i\omega n_{e1}+ikn_0u_{e1}=0,\\ -i\omega m_en_0u_{e1}=-en_0E_1-ik(3k_BT_en_{e1}),\\ ikE_1=-\frac{e}{\varepsilon _0}n_{e1},\   \end{cases}</script><p>最终可以得到：  </p><script type="math/tex; mode=display">\omega ^2=\gamma v_{te}^2k^2+\omega _{pe}^2,</script><p>这就是电子等离子体波（纵波，也就是声波）在等离子体内传播的色散公式，而对于离子，类似地有：  </p><script type="math/tex; mode=display">\omega ^2=v_s^2k^2,\ v_s=\sqrt{(\gamma _iT_i+\gamma_eT_e)/m_i} ,</script><p>对于电磁波（横波）的传播，我们考虑电子受电场作用驱动加速形成等效电流，引用导体中的色散公式有：  </p><script type="math/tex; mode=display">\begin{cases}m_e\frac{\partial \vec{v} }{\partial t } =-e\vec{E}_1，\\ \vec{J}=-n_0e\vec{v}，  \\ \vec{J}=\sigma \vec{E}_1，\\ k^2=\omega ^2\mu _0(\varepsilon +i\sigma /\omega )， \end{cases} \Rightarrow \omega ^2=\omega _{pe}^2+c^2k^2，</script><p>折射率可以写为:   </p><script type="math/tex; mode=display">\eta =ck/\omega =\sqrt{1-\frac{\omega _{pe}^2}{\omega ^2} } ,</script><p>根据电磁波可以在等离子体内传播的临界点，可以得到等离子体的临界密度：  </p><script type="math/tex; mode=display">n_c=\frac{m_e\varepsilon _0}{e^2} \omega ^2 \approx  1.1\times 10^{21}(\frac{\lambda }{\mu m} )^{-2}cm^{-3},</script>]]></content:encoded>
+      <content:encoded><![CDATA[<h1 id="2-激光与等离子体相互作用："><a href="#2-激光与等离子体相互作用：" class="headerlink" title="2.激光与等离子体相互作用："></a>2.激光与等离子体相互作用：</h1><h2 id="2-3激光在等离子体中的传播："><a href="#2-3激光在等离子体中的传播：" class="headerlink" title="2.3激光在等离子体中的传播："></a>2.3激光在等离子体中的传播：</h2><span id="more"></span> <p>在等离子体物理中，我们通常将物理量按照高频成分与低频成分分开处理（前面在推导激光有质动力时就有所体现），一般认为，高频部分是对高频场的响应，而低频部分为对时间的平均值的贡献。<br>对于高频电流，由于在我们讨论的时空尺度下，离子由于质量很大难以响应高频场，我们只需要考虑电子的贡献；同时，对于我们所涉及到的相对论情形，等离子体波的传播速度远小于流体的流速，故而我们将电子视为经历了绝热过程，热运动的特征速度表示为$v_{te}=\sqrt{k_BT_e/m_e} $，根据绝热方程与气体状态方程，可以得到：  </p><script type="math/tex; mode=display">\nabla P_e=\gamma_e n_ek_BT_e\nabla n_e</script><p>为了描述等离子体波的传播，我们假想等离子体内部发生偏离平衡状态的小微扰$n_e=n_0+n_{e1}$，$\vec{u}=\vec{u}_0+\vec{u}_{e1} $，$\vec{E}=\vec{E}_0+\vec{u}_{1} $，忽略磁场的影响，由于平衡时等离子体内部的均匀性，有：  </p><script type="math/tex; mode=display">\begin{cases}\nabla n_0=0,\ \vec{u}_0=0,\ \vec{E}_0=0,\\ \frac{\partial n_0}{\partial t }=\frac{\partial\vec{u}_0 }{\partial t }=\frac{\partial \vec{E}_0 }{\partial t }=0,   \end{cases}</script><p>其中$\gamma_e=3$。同时，我们假设所有的一阶物理量都是正弦的，相因子为$\phi =kx-\omega t$，于是，我们可以将2.2中的方程线性化：  </p><script type="math/tex; mode=display">\begin{cases}\frac{\partial n_j}{\partial t } +\nabla \cdot (n_j\vec{u}_j )=0， \\ m_jn_j\frac{\mathrm{d}\vec{u}_j  }{\mathrm{d}t }=q_jn_j(\vec{E}+\vec{u}_j \times \vec{B}  )-\nabla P_j -m_jn_j\gamma _{ij}(\vec{u}_i -\vec{u}_j )，\\ \nabla \cdot \vec{E}=\frac{1}{\varepsilon _0}\sum_{j}n_jq_j,\  \end{cases}\Rightarrow \begin{cases}-i\omega n_{e1}+ikn_0u_{e1}=0,\\ -i\omega m_en_0u_{e1}=-en_0E_1-ik(3k_BT_en_{e1}),\\ ikE_1=-\frac{e}{\varepsilon _0}n_{e1},\   \end{cases}</script><p>最终可以得到：  </p><script type="math/tex; mode=display">\omega ^2=3 v_{te}^2k^2+\omega _{pe}^2,</script><p>这就是电子等离子体波（纵波，也就是声波）在等离子体内传播的色散公式，而对于离子，类似地有：  </p><script type="math/tex; mode=display">\omega ^2=v_s^2k^2,\ v_s=\sqrt{(\gamma _iT_i+\gamma_eT_e)/m_i} ,</script><p>对于电磁波（横波）的传播，我们考虑电子受电场作用驱动加速形成等效电流，引用导体中的色散公式有：  </p><script type="math/tex; mode=display">\begin{cases}m_e\frac{\partial \vec{v} }{\partial t } =-e\vec{E}_1，\\ \vec{J}=-n_0e\vec{v}，  \\ \vec{J}=\sigma \vec{E}_1，\\ k^2=\omega ^2\mu _0(\varepsilon +i\sigma /\omega )， \end{cases} \Rightarrow \omega ^2=\omega _{pe}^2+c^2k^2，</script><p>折射率可以写为:   </p><script type="math/tex; mode=display">\eta =ck/\omega =\sqrt{1-\frac{\omega _{pe}^2}{\omega ^2} } ,</script><p>根据电磁波可以在等离子体内传播的临界点，可以得到等离子体的临界密度：  </p><script type="math/tex; mode=display">n_c=\frac{m_e\varepsilon _0}{e^2} \omega ^2 \approx  1.1\times 10^{21}(\frac{\lambda }{\mu m} )^{-2}cm^{-3},</script><p>有关这部分内容的知乎上的文章：<br><a href="http://zhuanlan.zhihu.com/p/600889991" title="知乎上的相关文章">http://zhuanlan.zhihu.com/p/600889991</a></p>]]></content:encoded>
       
       
       <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">-学习</category>
