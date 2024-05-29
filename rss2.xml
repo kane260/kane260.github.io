@@ -9,8 +9,54 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>热爱物理，保持思考</description>
-    <pubDate>Tue, 28 May 2024 00:47:07 GMT</pubDate>
+    <pubDate>Wed, 29 May 2024 06:00:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>激光等离子体物理学习（8）</title>
+      <link>http://example.com/2024/05/29/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%888%EF%BC%89/</link>
+      <guid>http://example.com/2024/05/29/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%888%EF%BC%89/</guid>
+      <pubDate>Wed, 29 May 2024 01:05:50 GMT</pubDate>
+      
+      <description>&lt;h1 id=&quot;3-电子加热机制：&quot;&gt;&lt;a href=&quot;#3-电子加热机制：&quot; class=&quot;headerlink&quot; title=&quot;3.电子加热机制：&quot;&gt;&lt;/a&gt;3.电子加热机制：&lt;/h1&gt;&lt;h2 id=&quot;3-2共振吸收：&quot;&gt;&lt;a href=&quot;#3-2共振吸收：&quot; class=&quot;headerlink&quot; title=&quot;3.2共振吸收：&quot;&gt;&lt;/a&gt;3.2共振吸收：&lt;/h2&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="3-电子加热机制："><a href="#3-电子加热机制：" class="headerlink" title="3.电子加热机制："></a>3.电子加热机制：</h1><h2 id="3-2共振吸收："><a href="#3-2共振吸收：" class="headerlink" title="3.2共振吸收："></a>3.2共振吸收：</h2><span id="more"></span> <p>在等离子体的临界密度面上，激光会发生全反射（我们把法线方向规定为等离子体密度的梯度方向）。对于有一定入射角$theta$的$p$偏振光，激光的电场方向存在等离子体密度梯度方向的分量，会驱动等离子体内部的电子发生振荡，激发电子等离子体波。这个等离子波通过<strong>Landau阻尼</strong>，<strong>波破</strong>等效应将能量再传递给电子，形成方向主要沿等离子体密度方向的超热电子。<br>介绍一下Landau阻尼，这是一种非碰撞型的阻尼，当电子的速度在波矢方向的分量与激光的相速度接近时，就会产生有效的相互作用。考虑最简单的一维情况：  </p><script type="math/tex; mode=display">m_e\frac{\mathrm{d} v}{\mathrm{d} x}=qE\sin (kx-\omega t) ，</script><p>对于此类型的方程，我们理所当然地采用迭代发求解，将电子的位移与速度写为：   </p><script type="math/tex; mode=display">\begin{cases}x=x_0+v_0t+x_1+x_2\\v=v_0+v_1+v_2\ \end{cases}</script><p>解的脚标级别代表了结果与电场强度的几次方相关。经过计算，可以得到二级结果为：  </p><script type="math/tex; mode=display">\frac{\mathrm{d} v_2}{\mathrm{d} x}=-\frac{kq^2E^2}{m_e^2 \Omega ^2}  \cos (kx_0-\Omega t)[\sin (kx_0-\Omega t) -\sin kx_0+\Omega t\cos kx_0],\ \Omega =\omega -kv_0,</script><p>由此可以写出阻尼系数在按照初速度麦克斯韦分布下的形式（根据能量的平衡）：  </p><script type="math/tex; mode=display">\frac{\gamma }{\omega } =-\sqrt{\frac{\pi }{8} }\frac{\omega_{pe}^2 \omega }{\left | k^3 \right | v_{te}^3} \exp (-\frac{\omega ^2}{2k^2v_{te}^2} ),</script><p>其中：  </p><script type="math/tex; mode=display">\omega ^2=\omega _{pe}^2+3k^2v_{te}^2,</script><p>这是一个线性的阻尼，且当热速度远远小于相速度时，Landau阻尼很弱；当热速度与相速度接近时，Landau阻尼开始变得重要起来。一般来说，共振吸收发生在光强为16次方量级附近。<br>对于所产生的超热电子温度与激光强度的依赖关系，存在经验定标公式：  </p><script type="math/tex; mode=display">T_{hot}(keV)=14(I_{16}\lambda _{\mu m})^{\frac{1}{3} }T_{background}^{\frac{1}{3} },</script><p>其中光强以$10^{16}W/cm^2$为单位。<br>更多内容可以参考：<a href="https://faculty.pku.edu.cn/_tsf/00/08/EfuyYjRNNzui.pdf" title="相关汇报ppt">https://faculty.pku.edu.cn/_tsf/00/08/EfuyYjRNNzui.pdf</a></p>]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">-学习</category>
+      
+      
+      <category domain="http://example.com/tags/srt-%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86/">-[srt,激光等离子体物理]</category>
+      
+      
+      <comments>http://example.com/2024/05/29/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%888%EF%BC%89/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>激光等离子体物理学习（7）</title>
+      <link>http://example.com/2024/05/28/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%887%EF%BC%89/</link>
+      <guid>http://example.com/2024/05/28/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%887%EF%BC%89/</guid>
+      <pubDate>Tue, 28 May 2024 04:21:03 GMT</pubDate>
+      
+      <description>&lt;h1 id=&quot;3-电子加热机制：&quot;&gt;&lt;a href=&quot;#3-电子加热机制：&quot; class=&quot;headerlink&quot; title=&quot;3.电子加热机制：&quot;&gt;&lt;/a&gt;3.电子加热机制：&lt;/h1&gt;&lt;h2 id=&quot;3-1碰撞吸收：&quot;&gt;&lt;a href=&quot;#3-1碰撞吸收：&quot; class=&quot;headerlink&quot; title=&quot;3.1碰撞吸收：&quot;&gt;&lt;/a&gt;3.1碰撞吸收：&lt;/h2&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="3-电子加热机制："><a href="#3-电子加热机制：" class="headerlink" title="3.电子加热机制："></a>3.电子加热机制：</h1><h2 id="3-1碰撞吸收："><a href="#3-1碰撞吸收：" class="headerlink" title="3.1碰撞吸收："></a>3.1碰撞吸收：</h2><span id="more"></span> <p>现有的激光强度$I\le 10^{22}W/cm^2$下，我们无法直接加速离子，而是先将能量传递给电子，利用电子的热压或者激光作用时产生的光压维持电子与离子的分离，离子从静电分离场中获得能量。已知的电子能量的主要吸收方式主要分为两种，直接通过碰撞过程交换能量的称为<strong>正常吸收</strong>，通过等离子体波等形式间接吸收能量的方式称为<strong>反常吸收</strong>。<br>对于光强在13到15次方的低强度激光，存在<strong>碰撞吸收</strong>，也叫<strong>逆轫致吸收</strong>。等离子体中的电子在激光电场的作用下高速振动，在离子的库仑场中会发生碰撞散射，将动能传递给离子，从而使得激光的能量被等离子体吸收，是短波长激光的主要吸收机制。我们暂时不考虑集体效应与量子效应，在近似$\hbar \omega \ll k_BT_e $下，可以得到碰撞效应对激光的线性吸收系数：  </p><script type="math/tex; mode=display">K_{ab}\approx \frac{\gamma_{i-e}}{c} \frac{(n_e/n_c)^2}{\sqrt{1-(n_e/n_c)} },</script><script type="math/tex; mode=display">\gamma _{i-e}\sim \frac{n_e Z \ln{\Lambda } }{n_cT_e^{\frac{3}{2} }} ,</script><p>其中$n_e,\ n_c,\ \gamma _{i-e},\ Z,\ T_e$分别为电子密度，等离子体临界密度，电子与离子的碰撞频率，电离度，电子温度。$\Lambda =4\pi n_e\lambda _D^3$，$\ln{\Lambda } $为库仑对数，此处取值在8到10之间。可以看到，在激光可以入射等离子体的前提下，电子与等离子体的碰撞频率以及线性吸收系数均随着等离子体密度的增大而增大，故而碰撞吸收主要发生在临界密度区域的附近，碰撞产生的热电子的能量一般在千电子伏特的级别以下。<br>当激光的强度增大时，电子的速度分布与电场的关联加强，且当电场强度和原子核电场可以相比时，还会发生多光子过程，逆轫致吸收过程逐渐由线性过程转变为非线性的过程，吸收系数和$\omega ^5/E^3$相关；同时，注意到温度的上升将导致碰撞频率的快速下降，逆韧致吸收的效应减弱，其他吸收过程开始占据主导。</p>]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">-学习</category>
+      
+      
+      <category domain="http://example.com/tags/srt-%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86/">-[srt,激光等离子体物理]</category>
+      
+      
+      <comments>http://example.com/2024/05/28/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%887%EF%BC%89/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>激光等离子体物理学习（6）</title>
@@ -193,55 +239,6 @@
       
       
       <comments>http://example.com/2024/05/25/%E4%BD%86%E4%B8%81%E4%B8%8E%E4%BB%96%E7%9A%84%E9%AD%94%E9%AC%BC%E4%B9%8B%E5%9F%8E/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>激光等离子体物理学习（1）</title>
-      <link>http://example.com/2024/05/25/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89/</link>
-      <guid>http://example.com/2024/05/25/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89/</guid>
-      <pubDate>Sat, 25 May 2024 10:46:19 GMT</pubDate>
-      
-      <description>&lt;h1 id=&quot;1-激光与单电子相互作用：&quot;&gt;&lt;a href=&quot;#1-激光与单电子相互作用：&quot; class=&quot;headerlink&quot; title=&quot;1.激光与单电子相互作用：&quot;&gt;&lt;/a&gt;1.激光与单电子相互作用：&lt;/h1&gt;&lt;h2 id=&quot;1-1基本的相互作用方程：&quot;&gt;&lt;a href=&quot;#1-1基本的相互作用方程：&quot; class=&quot;headerlink&quot; title=&quot;1.1基本的相互作用方程：&quot;&gt;&lt;/a&gt;1.1基本的相互作用方程：&lt;/h2&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="1-激光与单电子相互作用："><a href="#1-激光与单电子相互作用：" class="headerlink" title="1.激光与单电子相互作用："></a>1.激光与单电子相互作用：</h1><h2 id="1-1基本的相互作用方程："><a href="#1-1基本的相互作用方程：" class="headerlink" title="1.1基本的相互作用方程："></a>1.1基本的相互作用方程：</h2><span id="more"></span>   <p>激光等离子体物理的主要相互作用对象就是激光与等离子体中的<strong>电子</strong>（等离子体中的离子很难直接与激光相互作用，而是需要激光先与电子相互作用，随后电子移动后产生静电分离场，再进一步加速离子；再激光与电子的相互作用过程中，离子一般视为带有正电荷的背景），我们从最简单的相对论性单电子与平面电磁波的相互作用开始探究过程中的物理现象。<br>电子再电磁场中的能动量方程可以表示为：  </p><script type="math/tex; mode=display">\frac{\mathrm{d}\vec{a} }{\mathrm{d}t } =-[-\frac{\partial \vec{a} }{\partial t }+\vec{v}\times(\nabla \times \vec{a}) ]</script><script type="math/tex; mode=display">\frac{\mathrm{d}\gamma  }{\mathrm{d}t } =\vec{v}\cdot \frac{\partial\vec{a}}{\partial t}</script><p>其中各个物理量我们已经进行了归一化，<strong>规范取标量势为0</strong>，一般来说，对于一定波长与强度的激光，其归一化矢势振幅$a_0$存在换算关系：  </p><script type="math/tex; mode=display">a_{0}^{2} =I[W/m^2]\cdot \lambda ^2[\mu m^2]/\zeta (1.37\times10 ^{18} )</script><p>$\zeta =1$表示为线偏振光，$\zeta =0$表示为圆偏振光，$a_0\ge 1$定义为相对论激光。<br>对于真空中自由传播的平面波激光，其矢势可以写为：  </p><script type="math/tex; mode=display">\vec{A}=(0,\delta A_0 \cos \varphi ,(1-\delta^2)^{\frac{1}{2} }\sin \varphi )</script><p>其中$\varphi=\omega _0 t-k_0 t + \varphi _0$,且对于线偏振光$\delta=\pm 1或者0$，对于圆偏振光，$\delta =\pm 1/\sqrt{2} $。我们将电子的动量分解到纵向与横向上，可以得到相应的守恒关系：  </p><script type="math/tex; mode=display">\vec{a}-\vec{p}_\perp =\vec{p}_{\perp 0}</script><script type="math/tex; mode=display">\gamma-p_x=\alpha</script><p>其中$\alpha$是初始条件决定的待定常数，特别地可以发现：当电子初始静止时，电子的纵向动量与所处位置的激光场强大小成一次正比，动能与横向动量成二次正比。在非相对论激光的情况下，电子的纵向运动不明显；而在相对论激光下，随着纵向洛伦兹力和横向的激光电场力逐渐相当（横向振荡速度逐渐接近光速），电子的纵向运动会逐渐明显甚至超过横向运动。当然，这种机制下，电子的能量会在周期后半段退回场中，无法真正被加速。<br>另外，我们选择合适的$\alpha$的值，可以使得电子的平均纵向漂移速度变为0，这样我们可以获得电子的平均静止坐标系。</p>]]></content:encoded>
-      
-      
-      <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">-学习</category>
-      
-      
-      <category domain="http://example.com/tags/srt-%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86/">-[srt,激光等离子体物理]</category>
-      
-      
-      <comments>http://example.com/2024/05/25/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>现阶段学习内容总结规划</title>
-      <link>http://example.com/2024/05/25/%E7%8E%B0%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9%E6%80%BB%E7%BB%93%E8%A7%84%E5%88%92/</link>
-      <guid>http://example.com/2024/05/25/%E7%8E%B0%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9%E6%80%BB%E7%BB%93%E8%A7%84%E5%88%92/</guid>
-      <pubDate>Sat, 25 May 2024 09:34:24 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;2024-05-25阶段性总结&quot;&gt;&lt;a href=&quot;#2024-05-25阶段性总结&quot; class=&quot;headerlink&quot; title=&quot;2024.05.25阶段性总结&quot;&gt;&lt;/a&gt;2024.05.25阶段性总结&lt;/h1&gt;&lt;p&gt;最近一段时间的主要工作：&lt;br&gt;1.</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="2024-05-25阶段性总结"><a href="#2024-05-25阶段性总结" class="headerlink" title="2024.05.25阶段性总结"></a>2024.05.25阶段性总结</h1><p>最近一段时间的主要工作：<br>1.专业课学习（电动力学，量子力学，统计物理）；<br>2.熟悉srt需要用到的知识，包括激光等离子体加速物理，同时也需要学习一定程度的python（计划下学期或者下下学期选修计算物理，量子束流物理与能源物理基础）；<br>3.读文献（srt\论文中的所有文献），重点是综述；<br>4.准备六级考试（06.15），并且暑假如果有时间可以准备并考一次雅思；<br>5.假期要学习并掌握Smilei-PIC与FLASH流体模拟的使用（如果有空闲，也可以试试Multi）；<br>6.准备中世纪西方政治（06.12）和马原的结课论文，马原需要开始准备考试内容了。  </p><p>目前已完成的进度:<br>电动力学复习了电磁场的基本性质与相对论电动力学；初步理解了激光等离子体物理相关的一些知识，林老师的出站论文看了一部分；基本了解了python的语法，可以较为熟练地使用GitHub，cmd以及终端进行操作；在Smilei上初步实现了一些模拟，了解了基本的操作，FLASH已经安装。  </p><p>FLASH官网地址：<a href="https://flash.rochester.edu/">FLASH</a><br>Smilei-PIC官网地址：<a href="https://smileipic.github.io/Smilei/">Smilei-PIC</a><br>四六级考试官网地址：<a href="https://cet.neea.edu.cn/">四六级</a></p>]]></content:encoded>
-      
-      
-      <category domain="http://example.com/categories/%E5%AD%A6%E4%B9%A0/">-学习</category>
-      
-      
-      <category domain="http://example.com/tags/%E6%80%BB%E7%BB%93/">-总结</category>
-      
-      
-      <comments>http://example.com/2024/05/25/%E7%8E%B0%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9%E6%80%BB%E7%BB%93%E8%A7%84%E5%88%92/#disqus_thread</comments>
       
     </item>
     
