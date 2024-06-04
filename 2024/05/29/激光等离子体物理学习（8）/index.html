@@ -31,7 +31,7 @@
 <meta property="og:description" content="3.电子加热机制：3.2共振吸收：">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-05-29T01:05:50.000Z">
-<meta property="article:modified_time" content="2024-05-29T06:00:08.978Z">
+<meta property="article:modified_time" content="2024-05-29T06:04:55.033Z">
 <meta property="article:author" content="kane">
 <meta property="article:tag" content="-[srt,激光等离子体物理]">
 <meta name="twitter:card" content="summary">
@@ -204,7 +204,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2024-05-29 09:05:50 / 修改时间：14:00:08" itemprop="dateCreated datePublished" datetime="2024-05-29T09:05:50+08:00">2024-05-29</time>
+              <time title="创建时间：2024-05-29 09:05:50 / 修改时间：14:04:55" itemprop="dateCreated datePublished" datetime="2024-05-29T09:05:50+08:00">2024-05-29</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -252,7 +252,7 @@
 <p>在等离子体的临界密度面上，激光会发生全反射（我们把法线方向规定为等离子体密度的梯度方向）。对于有一定入射角$theta$的$p$偏振光，激光的电场方向存在等离子体密度梯度方向的分量，会驱动等离子体内部的电子发生振荡，激发电子等离子体波。这个等离子波通过<strong>Landau阻尼</strong>，<strong>波破</strong>等效应将能量再传递给电子，形成方向主要沿等离子体密度方向的超热电子。<br>介绍一下Landau阻尼，这是一种非碰撞型的阻尼，当电子的速度在波矢方向的分量与激光的相速度接近时，就会产生有效的相互作用。考虑最简单的一维情况：  </p>
 <script type="math/tex; mode=display">m_e\frac{\mathrm{d} v}{\mathrm{d} x}=qE\sin (kx-\omega t) ，</script><p>对于此类型的方程，我们理所当然地采用迭代发求解，将电子的位移与速度写为：   </p>
 <script type="math/tex; mode=display">\begin{cases}x=x_0+v_0t+x_1+x_2\\v=v_0+v_1+v_2\ \end{cases}</script><p>解的脚标级别代表了结果与电场强度的几次方相关。经过计算，可以得到二级结果为：  </p>
-<script type="math/tex; mode=display">\frac{\mathrm{d} v_2}{\mathrm{d} x}=-\frac{kq^2E^2}{m_e^2 \Omega ^2}  \cos (kx_0-\Omega t)[\sin (kx_0-\Omega t) -\sin kx_0+\Omega t\cos kx_0],\ \Omega =\omega -kv_0,</script><p>由此可以写出阻尼系数在按照初速度麦克斯韦分布下的形式（根据能量的平衡）：  </p>
+<script type="math/tex; mode=display">\frac{\mathrm{d} v_2}{\mathrm{d} t}=-\frac{kq^2E^2}{m_e^2 \Omega ^2}  \cos (kx_0-\Omega t)[\sin (kx_0-\Omega t) -\sin kx_0+\Omega t\cos kx_0],\ \Omega =\omega -kv_0,</script><p>由此可以写出阻尼系数在按照初速度麦克斯韦分布下的形式（根据能量的平衡）：  </p>
 <script type="math/tex; mode=display">\frac{\gamma }{\omega } =-\sqrt{\frac{\pi }{8} }\frac{\omega_{pe}^2 \omega }{\left | k^3 \right | v_{te}^3} \exp (-\frac{\omega ^2}{2k^2v_{te}^2} ),</script><p>其中：  </p>
 <script type="math/tex; mode=display">\omega ^2=\omega _{pe}^2+3k^2v_{te}^2,</script><p>这是一个线性的阻尼，且当热速度远远小于相速度时，Landau阻尼很弱；当热速度与相速度接近时，Landau阻尼开始变得重要起来。一般来说，共振吸收发生在光强为16次方量级附近。<br>对于所产生的超热电子温度与激光强度的依赖关系，存在经验定标公式：  </p>
 <script type="math/tex; mode=display">T_{hot}(keV)=14(I_{16}\lambda _{\mu m})^{\frac{1}{3} }T_{background}^{\frac{1}{3} },</script><p>其中光强以$10^{16}W/cm^2$为单位。<br>更多内容可以参考：<a target="_blank" rel="noopener" href="https://faculty.pku.edu.cn/_tsf/00/08/EfuyYjRNNzui.pdf" title="相关汇报ppt">https://faculty.pku.edu.cn/_tsf/00/08/EfuyYjRNNzui.pdf</a></p>
@@ -338,7 +338,10 @@
     <a href="/2024/05/28/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%887%EF%BC%89/" rel="prev" title="激光等离子体物理学习（7）">
       <i class="fa fa-chevron-left"></i> 激光等离子体物理学习（7）
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2024/06/01/%E6%BF%80%E5%85%89%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%EF%BC%889%EF%BC%89/" rel="next" title="激光等离子体物理学习（9）">
+      激光等离子体物理学习（9） <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -418,7 +421,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-count">13</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -485,12 +488,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">15k</span>
+    <span title="站点总字数">16k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">14 分钟</span>
+    <span title="站点阅读时长">15 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
